@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai&family=Kalam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Poppins',sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 11vh;
+    background-image: linear-gradient(rgba(12,3,41,0.3),rgba(12,3,51,0.3));
+    position:relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* navbar */
+
+.nav{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 8%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.nav .logo{
+    position: relative;
+    display: inline-flex;
+    cursor: pointer;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.nav ul.slide{
+    opacity: 97%;
+    transform: translateX(0);
+}
+
+/* button logout */
+.nav ul li a.logout{
+    display: inline;
+    list-style: none;
+    width: 20%;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    border: 2px solid white;
+    padding: 7px 12px;
+    
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.nav ul li a.logout:hover{
+    color: white;
+    background-color: transparent;
+   
+}
+.nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color :white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.nav ul li a:hover{
+   
+    color :#77faed;
+   
+}
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;  
+    background: #77faed;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after{
+   width: 100%;
+}
+
+/* menu  */
+
+
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.menu-toggle input{
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu-toggle span{
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+/* animasi menu */
+
+.menu-toggle span:nth-child(2){
+    /* background-color: red; */
+     transform-origin:  0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    /* background-color: red; */
+     transform-origin:  0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    transform: rotate(45deg) translate(-1px, 0px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    transform: rotate(-45deg) translate(-1px,0);
+}
+
+
+.menu-toggle input:checked ~ span:nth-child(3){
+    transform: scale(0);
+    opacity: 0;
+}
+
+/* responsive */
+@media (min-aspect-ratio : 16/9){
+    .gambar{
+        width: 100%;
+        height: auto;
+        transition: 0.5s;
+    
+    }
+}
+@media (max-aspect-ratio : 9/16){
+    .gambar{
+        width: auto;
+        height: 100%;
+        position: relative;
+        transition: 0.5s;
+    
+    }
+}
+
+
+@media screen and (max-width : 1296px){
+    .nav ul{
+        width: 45%;
+    }
+    .content h1{
+         font-size :100px;
+    }
+    .content h5{
+        font-size: 35px;
+    }
+    .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white ;
+    padding: 12px 50px;
+    border-radius: 40px;
+    transition: 0.5s;
+    }
+    .nav .logo{
+        width: 40%;
+        transition: 0.5s;
+    }
+    .hero .gambar{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: 0.5s;
+    }
+
+    
+}
+
+@media screen and (max-width : 768px){
+    .nav ul{
+        width: 50%;
+    }
+    .content h1{
+         font-size :80px;
+    }
+    .content h5{
+        font-size: 25px;
+    }
+    .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    border: 2px solid white ;
+    padding: 10px 40px;
+    border-radius: 30px;
+    transition: 0.5s;
+    }
+    
+    
+}
+
+/* ukuran hp */
+@media screen and (max-width : 576px){
+    .nav ul{
+    
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        
+        transform: translateX(100%);
+        transition: all 1s ;
+    }
+    .nav ul.slide{
+        transform: translateX(0);
+    }
+    
+    .menu-toggle {
+        display: flex;
+    }
+    .content h1{
+         font-size :50px;
+    }
+    .content h5{
+        font-size: 20px;
+    }
+    .content a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        border: 2px solid white ;
+        padding: 10px 30px;
+        border-radius:20px;
+        transition: 0.5s;
+    }
+}

@@ -1,0 +1,30 @@
+Selamat datang di website Bandung|Travel
+
+
+Informasi mengenai website kami: 
+website bandung travel ini adalah aplikasi web yang dapat membantu/memudahkan wisatawan untuk liburan di kota bandung ,karena pada aplikasi ini terdapat beberapa informasi seperti:
+ - informasi mengenai kota bandung itu sendiri
+ - informasi mengenai tempat tempat wisata yang ada dikota bandung
+ - informasi mengenai museum dan restaurant dikota bandung ,
+
+ *Aplikasi ini menggunakan  CodeIgniter3
+*Untuk menjelajahi bebrapa animasi ,dapat mengaktifkan internet karena disini kami menggunakan beberpa script yang bersifat online ,atau terdapat beberapa assets yang dapat diakses secara online
+
+Pada aplikasi ini terdapat 4 fitur/menu utama yaitu:
+ - Guide : guide ini adalah fitur untuk paket liburan bagi user/wisatawan yang inginn berlibur sesuai paket yang tersedia , terdapat beberapa paket dengan include yang berbeda disettiap paket nya ,selain itu untuk petunjuk penggunaan pengelolaan data nantinya terdapat pada fitur/Menu Guide ini dimana akan terdapat fitur untuk memilih paket,input data informasii ,kemudian juga terdapat untuk lihat dan hapus data .
+ - About  : ini adalah halaman untuk partisipasi dalam pembuatan aplikasi ini 
+ - Contact us : pada menu ini user dapat mengirim pesan berupa nama, email ,dan pesan yang ingin disampaikan ,kemudian data yang dikirim akan disimpan ke dalam Google spreadsheet dapat dilihat pada link berikut :
+
+https://docs.google.com/spreadsheets/d/1T-sJifbssN4Dk-W7n7PuISi1rqC-VswGXcxBgw_QHr4/edit?usp=sharing
+
+- Explore : menu ini adalah fitur utaama dimana terdapat beberapa informasi terkait keindahan kota bandung ,agar mampu memudahkan user/wisatawan memperoleh informasi dalam mencari paket untuk liburan mereka sesuai dengan kebutuhannya
+
+*Untuk database pada aplikasi ini terdapat apda folder db.
+
+*untuk login pada aplikasi ini  dapat mendaftar terlebih dahulu  dengan menekan tombol SignUp, atau juga dapat menggunakan akun berikut : 
+
+1. akun pertama : username :admin password :12345678
+2. akun kedua : username :rizki password : rizki	
+3. akun ketiga : username :icas password : icas
+4. akun keempat : username :sony password : sony
+5. akun kelima : username :eka password : eka 
