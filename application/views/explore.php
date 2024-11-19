@@ -19,17 +19,17 @@
     <link href="<?= base_url(); ?>assets/css/explore.css" rel="stylesheet">
 
 
-
-
-
     <title>Explore | Bandung </title>
+
+
 </head>
 
 <body>
     <!-- section untuk header -->
     <div class="hero">
         <!-- animasi maps -->
-        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_svy4ivvy.json" background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_svy4ivvy.json" background="transparent"
+            speed="1" style="width: 200px; height: 200px;" loop autoplay></lottie-player>
         <!-- maps transparant -->
         <img src="<?php echo base_url(); ?>assets/image/map.png" class="gambar">
         <!-- video latar -->
@@ -81,7 +81,9 @@
             </div>
 
             <div class="four columns main-col">
-                <p>Kota Bandung sebagai kota yang banyak dikunjungi oleh wisatawan sejak dulu.  Selain itu, Bandung memiliki berbagai potensi wisata lainnya seperti bangunan bersejarah, budayanya, serta makanan khas daerahnya. Daya tarik inilah yang menjadikan banyaknya wisatawan berdatangan ke Kota Bandung.</p>
+                <p>Kota Bandung sebagai kota yang banyak dikunjungi oleh wisatawan sejak dulu.  Selain itu, Bandung
+                    memiliki berbagai potensi wisata lainnya seperti bangunan bersejarah, budayanya, serta makanan khas
+                    daerahnya. Daya tarik inilah yang menjadikan banyaknya wisatawan berdatangan ke Kota Bandung.</p>
             </div>
 
             <div class="three columns main-col">
@@ -111,7 +113,11 @@
                 <h3>Panduan Wisata</h3>
                 <h3>Bandung </h3>
 
-                <p>Bandung, salah satu kota tujuan wisata terbesar di Indonesia. Kota Bandung dikenal juga sebagai ibukota provinsi Jawa Barat. Banyak sebutan yang melekat pada kota Bandung. Diantaranya ialah sebutan Kota Kembang dan Paris van Java. Jutaan turis berkunjung ke Bandung setiap tahunnya. Menurut pak walikota Ridwan Kamil, hampir 7 juta wisatawan yang tiap tahun mengunjungi kota terbesar di Jawa Barat ini.</p>
+                <p>Bandung, salah satu kota tujuan wisata terbesar di Indonesia. Kota Bandung dikenal juga sebagai
+                    ibukota provinsi Jawa Barat. Banyak sebutan yang melekat pada kota Bandung. Diantaranya ialah
+                    sebutan Kota Kembang dan Paris van Java. Jutaan turis berkunjung ke Bandung setiap tahunnya. Menurut
+                    pak walikota Ridwan Kamil, hampir 7 juta wisatawan yang tiap tahun mengunjungi kota terbesar di Jawa
+                    Barat ini.</p>
             </div>
 
             <div class="six columns main-col">
@@ -119,10 +125,13 @@
                 <h2>Wisata</h2>
                 <hr>
 
-                <p>Banyaknya daerah tujuan wisata di Bandung menjadi salah satu faktor daya tarik untuk para turis. Mulai dari destinasi wisata kuliner, wisata alam, hingga wisata di tengah kota Bandung. Posisi demografis Bandung terletak di dataran tinggi. Oleh sebab itu, udara di kota ini sangat sejuk.</p>
+                <p>Banyaknya daerah tujuan wisata di Bandung menjadi salah satu faktor daya tarik untuk para turis.
+                    Mulai dari destinasi wisata kuliner, wisata alam, hingga wisata di tengah kota Bandung. Posisi
+                    demografis Bandung terletak di dataran tinggi. Oleh sebab itu, udara di kota ini sangat sejuk.</p>
                 <a href="<?php echo site_url('wisata/') ?>">
                     <svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />s
+                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="black" stroke-width="3.33333"
+                            stroke-linecap="round" stroke-linejoin="round" />s
                     </svg>
                 </a>
 
@@ -149,10 +158,13 @@
 
                 <h2>Museum</h2>
                 <hr>
-                <p>Bandung memang menyimpan begitu banyak pesona wisata yang memukau. Berbagai tempat rekreasi seperti taman, pantai, hingga wisata lainnya.Selain wisata alam , kamu juga bisa menikmati berbagai wisata sejarah di museum nya.. </p>
+                <p>Bandung memang menyimpan begitu banyak pesona wisata yang memukau. Berbagai tempat rekreasi seperti
+                    taman, pantai, hingga wisata lainnya.Selain wisata alam , kamu juga bisa menikmati berbagai wisata
+                    sejarah di museum nya.. </p>
                 <a href="<?php echo site_url('museum/') ?>">
                     <svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="white" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />s
+                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="white" stroke-width="3.33333"
+                            stroke-linecap="round" stroke-linejoin="round" />s
                     </svg>
                 </a>
 
@@ -173,21 +185,20 @@
 
                 <h2>Restaurant</h2>
                 <hr>
-                <p>Banyaknya tempat makan di Bandung ini dikarenakan beberapa faktor, yakni karena di Bandung ada banyak sekali tempat wisata menarik, baik itu wisata alam hingga wisata edukasi. Selain itu, Bandung juga dipenuhi dengan populasi anak muda sehingga ada banyak wisata kuliner kekinian yang semakin menjamur setiap harinya. </p>
+                <p>Banyaknya tempat makan di Bandung ini dikarenakan beberapa faktor, yakni karena di Bandung ada banyak
+                    sekali tempat wisata menarik, baik itu wisata alam hingga wisata edukasi. Selain itu, Bandung juga
+                    dipenuhi dengan populasi anak muda sehingga ada banyak wisata kuliner kekinian yang semakin menjamur
+                    setiap harinya. </p>
                 <a href="<?php echo site_url('restaurant/') ?>">
                     <svg width="40" height="40" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M52.5 52.5L17.5 17.5M23.3333 52.5H52.5V23.3333" stroke="black" stroke-width="3.33333"
+                            stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </a>
             </div>
 
             <div class="six columns gambar">
-
                 <img src="<?php echo base_url(); ?>assets/image/gambar 2.png" class="gambar">
-
-
-
-
 
             </div>
 
@@ -198,39 +209,40 @@
 
     <!-- section bandros -->
 
-    <section id="bandros">
+    <section id="bandros" style="padding: 20px; background-color: #f9f9f9;">
 
-        <div class="row">
+        <div class="row" style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
-            <div class="six columns main-col">
+            <div class="six columns main-col"
+                style="flex: 1 1 45%; margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
 
-                <h3>Bandros<br>[ Bandung Tour On Bus <br>Tours</h3>
+                <h3 style="color: #333; font-size: 24px;">Bandros<br>[ Bandung Tour On Bus ]</h3>
 
-
-                <p>Bandros Bandung adalah salah satu sarana dari pemerintah kota Bandung untuk wisatawan yang ingin berkeliling kota Bandung dalam satu waktu.
-
-                    Pasti Anda sangat tertarik bukan bagaimana bisa mengelilingi kota Bandung yang luas ini hanya dengan satu waktu saja?</p>
+                <p style="color: #666; line-height: 1.6;">
+                    Bandros Bandung adalah salah satu sarana dari pemerintah kota Bandung untuk wisatawan yang ingin
+                    berkeliling kota Bandung dalam satu waktu. Pasti Anda sangat tertarik bukan bagaimana bisa
+                    mengelilingi kota Bandung yang luas ini hanya dengan satu waktu saja?
+                </p>
 
             </div>
 
-            <div class="six columns main-col">
+            <div class="six columns main-col"
+                style="flex: 1 1 45%; margin: 10px; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
 
-                <h2>08.00 - 16.00 WIB</h2>
+                <h2 style="color: #333; font-size: 24px;">08.00 - 16.00 WIB</h2>
                 <hr>
-                <h5>Jadwal Operasional</h5>
+                <h5 style="color: #666;">Jadwal Operasional</h5>
 
-                <p>Untuk Anda yang ingin menikmati keindahan kota Bandung dengan naik Bandros Bandung , Anda bisa mengatur jadwal bepergian Anda dengan jam operasional yang dimiliki oleh pengelola bus Bandros.</p>
-
+                <p style="color: #666; line-height: 1.6;">
+                    Untuk Anda yang ingin menikmati keindahan kota Bandung dengan naik Bandros Bandung, Anda bisa
+                    mengatur jadwal bepergian Anda dengan jam operasional yang dimiliki oleh pengelola bus Bandros.
+                </p>
 
             </div>
 
         </div>
 
     </section>
-
-
-
-
     <!-- akhir bandros -->
 
 

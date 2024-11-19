@@ -32,7 +32,8 @@
     <!-- section untuk header -->
     <div class="hero">
         <!-- animasi  -->
-        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_r4ykplqw.json" mode="bounce" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_r4ykplqw.json" mode="bounce"
+            background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
         <!-- maps transparant -->
         <img src="<?php echo base_url(); ?>assets/image/restorant.jpg" class="gambar">
 
@@ -75,9 +76,13 @@
         <div class="row">
             <div class="twelve">
                 <h1>Daftar Restaurant bandung</h1>
-                <p>Mendatangi tempat makan hits di Bandung merupakan sebuah keharusan bila sedang berlibur ke kota bunga tersebut. Ada banyak destinasi kuliner yang sudah legendaris maupun spot baru yang tengah ramai dikunjungi oleh kawula mudanya.
+                <p>Mendatangi tempat makan hits di Bandung merupakan sebuah keharusan bila sedang berlibur ke kota bunga
+                    tersebut. Ada banyak destinasi kuliner yang sudah legendaris maupun spot baru yang tengah ramai
+                    dikunjungi oleh kawula mudanya.
 
-                    Daftar referensi di bawah ini juga variatif dari segi konsep tempat hingga harga menunya. Kamu bisa mendatangi setiap tempatnya untuk makan cepat maupun nongkrong selama berjam-jam dengan orang terdekat.</p>
+                    Daftar referensi di bawah ini juga variatif dari segi konsep tempat hingga harga menunya. Kamu bisa
+                    mendatangi setiap tempatnya untuk makan cepat maupun nongkrong selama berjam-jam dengan orang
+                    terdekat.</p>
             </div>
         </div>
     </section>

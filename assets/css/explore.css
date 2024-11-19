@@ -400,38 +400,69 @@ body{
 
 /* popular */
 
+/* popular */
+
 #popular {
-   padding-top: 96px;
-   
-   display: flex;
-   overflow: hidden;
-   background-color:#B7B6AC;
+    padding-top: 96px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #B7B6AC;
 }
 
-
 #popular h3 {
-   padding: 20px;
-   font-family:  'Poppins', sans-serif;
-   font-size: 40px;
-   color: black;
-   margin-bottom: 12px;
-   font-weight: 900;
-   text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: 900;
+    text-align: center;
 }
 
 #popular h4 {
-   padding: 8px;
-   font-family:  'Poppins', sans-serif;
-   font-size: 20px;
-   color: black;
-   margin-bottom: 12px;
-   font-weight: 900;
-   text-align: start;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; /* Meningkatkan ukuran font */
+    color: #333; /* Menggunakan warna yang lebih gelap */
+    margin-bottom: 12px;
+    font-weight: 700; /* Mengurangi ketebalan font */
+    text-align: start;
+    transition: color 0.3s; /* Efek transisi */
 }
 
+#popular h4:hover {
+    color: #FF6347; /* Mengubah warna saat hover */
+}
 
-#popular p{
+#popular h5 {
+    padding: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; /* Ukuran font yang lebih besar */
+    color: #555; /* Warna teks yang lebih lembut */
+    margin-bottom: 8px;
+    transition: transform 0.3s; /* Efek transisi */
+}
+
+#popular h5:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+#popular p {
     color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Memungkinkan elemen untuk membungkus */
+    justify-content: space-between; /* Menyebar elemen secara merata */
+}
+
+.main-col {
+    padding: 10px; /* Menambahkan padding untuk ruang */
+    background-color: rgba(255, 255, 255, 0.8); /* Latar belakang putih transparan */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
 }
 
 

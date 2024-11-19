@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 08, 2022 at 03:08 PM
+-- Generation Time: Nov 19, 2024 at 02:54 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.2
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `bandung`
+-- Database: `bandungku`
 --
 
 -- --------------------------------------------------------
@@ -65,14 +65,7 @@ CREATE TABLE `tb_user` (
 --
 
 INSERT INTO `tb_user` (`username`, `password`, `nama`) VALUES
-('admin', '$2y$10$XD2aevubxM5OSdW5DAkR3.3fUOT1LGFVRA6P3k2JK.sZ6SgPvI2Ty', 'admin'),
-('dedi', '$2y$10$g6aMkFgClYQ2EljQWDmKpujiwmWyUlv/pe7hOKj9zx7/gNeEk8tRK', 'dedi sulaiman'),
-('eka', '$2y$10$C5/dRNwTYwN5Tz8eSk2AFOB00D2F3oQY0KfMCq0Fmvt4.cRtdLEUG', 'Auliya Eka P'),
-('entis', '$2y$10$ZgahJ9lJKUmJ63DjYMDFEe13NTOkafA7PX2smn8doKYi7cYd.K4oy', 'Entis sutisna'),
-('icas', '$2y$10$BB1/yG2Ar2bc3T8Q7aGJiO9W8eVcgfS5n.dHOXB6CBOMxP8YcNQdy', 'Ichas Purnama G'),
-('rizki', '$2y$10$vGC5VSZDm.xIzEJlGlwXduzsqhAUrZKZFiThdhZl4nKJ/jeZCtkKG', 'Moch Rizki Kurniawan'),
-('sony', '$2y$10$.hBQ./lUZw/QmFQQWTANfOLnTMCBxLgiFx8x2Tt/G2qIW3UeXEeHi', 'Sony Santana'),
-('sukma', '$2y$10$nshbPC/iZtyovsHS2LGaQOVlOQAQ10MGuci2qKyxXA3sPIvQxu9We', 'bli sukma herwamanto');
+('admin', '$2y$10$ZbjqXwHl6o5KkwR04TSTzePovFVZh6CxQlAQ1llGNynfCPDUZJhB.', 'admin');
 
 --
 -- Indexes for dumped tables
